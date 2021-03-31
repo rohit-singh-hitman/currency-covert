@@ -1,5 +1,11 @@
 body {
   margin: 0;
+  
+  display:flex !important;
+  min-height: 100vh;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +16,37 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+h1{
+  margin:0;
+  margin-bottom: 50px;
+}
+.AppBar {
+  
+ 
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  width: 400px;
+   height: 300px;
+  background-color: grey;
+  box-shadow: 10px 5px 10px black;
+
+}
+.input{
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding:5px;
+  margin-right: 7px;
+  width:140px;
+}
+select{
+  margin:5px;
+  width:70px;
+  height:25px;
+  border-radius: 7px;
+  border:none;
+}
+.equals{
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
 }

@@ -1,0 +1,11 @@
+{
+    "git.enableSmartCommit": true,
+    "openInGitHub.useCommitSHAInURL": true,
+    "openInGitHub.requireSelectionForLines": true,
+    "search.useGlobalIgnoreFiles": true,
+    "git.allowForcePush": true,
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "gitlens.codeLens.scopes": [],
+    "gitlens.changes.locations": [],
+    "git.postCommitCommand": "push"
+}
